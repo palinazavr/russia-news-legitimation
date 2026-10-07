@@ -1,0 +1,39 @@
+
+Evaluate how Russia is represented in this multimodal news article using the attached legitimation/delegitimation coding manual.
+
+CLOSED-BOOK CONSTRAINT: Base every proposition and every piece of evidence only on the article text and images provided in this specific request. Do not draw on prior knowledge, training data, or memory of other articles about similar events. Treat this article as the only source of information available to you, as if you have never seen any other reporting on this topic.
+
+For each article follow these steps:
+1. Build a list of every expression in THIS article that refers to Russia: the literal country name in the article's language, metonyms (e.g. "Moscow," "the Kremlin"), named Russian state officials (e.g. Putin, Lavrov, Peskov, Shoigu, a named Russian ministry or ministry spokesperson), Russian state institutions or state-controlled companies, and any actor the article explicitly says acts on Russia's behalf. This list is specific to this article — do not assume an expression refers to Russia just because Russia is the article's overall subject.
+2. For every sentence you are evaluating, identify its actual grammatical subject and object exactly as written — including pronouns, possessives, and elided subjects. If the subject/object is a pronoun, possessive, or elided, use the nearest plausible antecedent in the immediately preceding text — the noun phrase a careful reader would take it to mean. When analyzing the image, keep in mind that it has to represent the action described in the text or represent Russia.
+Go through the text sentence by sentence and each image on its own. For evaluative content (a moral judgment, an emotion, an accusation, an appeal to authority, a legal or normative claim, a description of success, failure, harm, or protection), identify: the predicate, whoever is grammatically/semantically doing, causing, or exhibiting it (subject), and whoever it's directed at or done to, if applicable (object_or_target) — using only what that specific sentence or image depicts, not what the rest of the article implies. If sentence B explains why sentence A's event happened, treat that as a separate case with its own subject — do not merge B's subject into A's just because they are causally linked. For images: identify people, uniforms, flags, or symbols only via a specific visible marker (a recognizable individual, a specific flag or insignia, caption text) — if you cannot name a specific marker, the identity is unclear and cannot be used. Use this analysis to inform the category matching below; do not include it in your output.
+3. Russia's position — subject (agent/provider role) or object_or_target (target role) — must match the category's Required role. Do not re-derive Russia's role from the article's general topic.
+4. The coding manual provided defines a fixed set of legitimation and delegitimation categories, each with a definition, a Text indicator, an Image indicator, and a Required role. Check the coding manual for categories whose Required role matches Russia's position here, and whose Text or Image indicator matches the predicate and evidence.
+5. Before activating, ask explicitly: "would this, read on its own, still support this category, or does it only work because Russia is the article's main subject?" If you cannot point to this specific case as sufficient on its own, do not activate.
+6. Before activating more than one category on the same piece of evidence, check each one separately against its own specific Text or Image indicator in the coding manual — do not activate a second or third category just because the evidence already justified a different, thematically similar one. Two categories may share the same evidence only if the evidence independently satisfies each category's own distinct definition. If a category's own specific indicator is not itself present in the evidence, do not activate that category, even if a neighboring category on the same evidence is well justified.
+7. If the subject or object identity was "unclear" in your analysis, it cannot activate any category.
+8. Categories are not mutually exclusive; a single article can activate several. Do not report a category you considered and rejected. When uncertain, do not activate — precision matters more than coverage here.
+
+IMAGE EVIDENCE MUST DIRECTLY INVOLVE RUSSIA. An image can support a category only if Russia is identified in it via a specific visible marker. If a visible marker in the image identifies a person or group as belonging to a DIFFERENT nationality or actor, that marker rules out a Russian attribution for that image. Do not attribute an image to Russia based on the article's overall topic when a specific visible marker in the image itself points to someone else. Before citing an image as evidence, check explicitly: does the marker you identified actually indicate RUSSIA, or does it indicate a different actor present in a Russia-related context? The one exception: delegitimation, agent-role categories, where the text explicitly names a Russian action as the direct cause of what the image shows (e.g. "Russian shelling destroyed this building").
+
+Only include an item in text_evidence or image_evidence if it affirmatively supports the category. If your own analysis concludes an item does not apply (e.g. "this person is not Russian"), leave it out of the evidence entirely rather than citing it and explaining why it fails. If, after this check, no valid evidence remains for a category, do not include that category in the output.
+Return only this JSON object:
+{
+  "activated_categories": [
+    {
+      "category": "",
+      "orientation": "legitimation | delegitimation",
+      "russia_role": "agent | target | provider | topic",
+      "text_evidence": null,
+      "image_evidence": []
+    }
+  ],
+  "reasoning": ""
+}
+
+For each entry in "activated_categories":
+- "russia_role" must match both the Required role stated in the category's definition and Russia's position in the evidence cited.
+- "text_evidence" is the smallest exact text span sufficient to justify the category, verbatim substring of the analyzed article text, or null if activated on image evidence only. Must consist of text copied exactly, word-for-word, from the article.
+- "image_evidence" is a list of {"image_file": "", "reason": ""} for every image that independently supports the category — empty list if activated on text evidence only. "reason" must name the specific visible marker used, not a general impression.
+Do not include categories with no activation in the output at all.
+"reasoning" is a brief (2-4 sentence) summary of how text and images jointly construct the overall representation of Russia in this article.

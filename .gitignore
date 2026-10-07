@@ -1,0 +1,13 @@
+# Jupyter and data files
+.ipynb_checkpoints/
+__pycache__/
+*.csv
+*.csv.gz
+*.json
+*.jpg
+*.jpeg
+*.png
+*.webp
+html_pages/
+*_images/
+.env

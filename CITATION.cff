@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it."
+title: "Code for the analysis of Russia's representation in European war coverage"
+type: software
+license: MIT
+authors:
+  - family-names: Smirnova
+    given-names: Polina
+    orcid: "https://orcid.org/0009-0005-6667-6884"
+    affiliation: "University of Milan"

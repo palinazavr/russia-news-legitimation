@@ -1,0 +1,87 @@
+6. Legitimation Coding Categories
+
+6.1 Authorization
+Authorization refers to authority, expertise, institutions, law, tradition, or social norms as a basis for supporting or validating Russia.
+Text: the article text uses expert opinion, an legal rule, tradition, or international recognition to justify a Russian action. A sentence that only states or mentions who someone is (their rank, title, position) or official positions and past actions does not qualify.
+Images: Visual confirmation of legitimate institutional authority or international recognition. The image must depict Russia as being formally recognized, ceremonially validated, or exercising accepted institutional authority. Routine meetings, portraits, military uniforms, or officials shown without legitimizing action do not qualify.
+Required role: target. Russia is the one being recognized/received by another party — e.g. invited to a summit, formally received by a foreign leader (target of a positive act by someone else).
+
+6.2 Moral Evaluation
+Moral Evaluation refers to ethical, ideological, humanitarian, or normative judgments conveyed through evaluative language to support or validate Russia.
+Text: moral approval, ethical or ideological evaluation, humanitarian principles, justice, responsibility, freedom, sovereignty, democracy, or human rights used to evaluate Russia in a positive way.
+Images: Visible actions that portray Russia as morally responsible, compassionate, or ethical. Positive interaction alone is insufficient unless it functions as evidence of humanitarian or moral legitimacy.
+Required role: agent. Morally commendable behavior must be the action of Russia specifically.
+
+6.3 Rationalization
+Rationalization refers to presenting Russia as logical, necessary, justified, or effective.
+Text: causal explanations; strategic, political, military, or economic necessity; practical objectives or expected outcomes; scientific, technical, or historical explanations; cost-benefit reasoning.
+Images: Russia is visually represented as competent, organized, or effectively managing a situation. Operational rooms, maps, computers, or military briefings qualify only when competence or effective governance is visually emphasized rather than merely documented.
+Required role: agent. The action, goal, or policy being rationalized must be the action of Russia specifically. Do not activate for strategic reasoning attributed to another actor (e.g. NATO's or Ukraine's stated rationale), even if it concerns Russia.
+
+6.4 Mythopoesis
+Mythopoesis refers to historical memory, collective identity, or symbolic narratives as a basis for supporting or validating Russia.
+Text: historical narratives; national myths; collective memory.
+Images: Framing Russia through collective identity, remembrance, or heroic continuity. Historical buildings or monuments shown only as locations do not qualify.
+Required role: agent or topic. Russia occupies "topic" when the narrative recounts Russia's own history, identity, or collective memory (a text or image narrating the past). Russia occupies "agent" when it is actively staging or performing a commemorative act that invokes that memory — for example holding a Victory Day parade, unveiling a monument, or a state ceremony marking a historical anniversary. Either is sufficient.
+
+6.5 Altruism
+Altruism refers to representing Russia as selflessly caring for the well-being of others, willing to sacrifice it's personal interests or profit for the benefit of others.
+Text: humanitarian assistance; protection of civilians; peacekeeping or conflict prevention; rescue, evacuation, or reconstruction.
+Images: Russia as the visible provider of protection, rescue, or assistance, humanitarian aid; rescue or medical assistance; reconstruction; peacekeeping activities.
+Required role: provider. Russia must be the one giving, protecting, or providing. Do not activate when Russia is the recipient of aid or protection from someone else.
+
+6.6 Emotion
+Emotion refers to emotional appeals, emotionally charged language or imagery that support or validate Russia.
+Text: emotionally charged language; descriptions emphasizing Russian heroism, Russian sacrifice, or solidarity to Russia.
+Images: when positive affect (solidarity, gratitude, pride, or commemorative unity) functions to support or validate Russia. Smiling faces alone do not activate the category.
+Required role: topic. The emotional content must belong to Russia specifically — the person or actor experiencing or displaying the emotion must themselves be Russian. Russia being the reason the emotional moment is happening (for example, by organizing the event or causing the situation) is not sufficient if the person whose emotion is shown is not Russian.
+
+6.7 Victimization
+Victimization refers to portraying Russia as a victim of external aggression, hostility, or unfair treatment, generating sympathy or justifying its actions as defensive or reactive.
+Text: framing Russia as threatened, encircled, or unfairly treated; portrayal of sanctions, NATO expansion, or Western policy as hostile acts against Russia; narratives of injustice against Russia; attacks on Russian territory, officials, or citizens framed as unjust.
+Images: Russian casualties; damage attributed against Russia; hardship attributed to sanctions; symbolic imagery of Russia as besieged or encircled.
+Required role: target. Russia must be the one experiencing the attack, hostility, or unfair treatment described. The actor responsible for it does not need to be named for this category to apply — Russia being the affected party is sufficient and is the expected reading here, not a misattribution.
+
+7. Delegitimation Coding Categories
+
+7.1 Authorization
+Authorization refers to authority, expertise, institutions, law, tradition, or social norms as a basis for discrediting Russia.
+Text: the article text uses expert opinion, a legal rule, tradition, or an institutional finding to condemn a Russian action as unjust, unlawful, or unauthorized. This category requires a legal or judicial determination of unlawfulness specifically — a court ruling, a tribunal finding, an arrest warrant, or an explicit statement that a named law, treaty, or convention was violated — not merely that some authority took an adverse action against Russia.
+Images: authority visibly denied or excluded — empty seats, a boycotted summit. Routine meetings, portraits, military uniforms, or officials shown without such an act do not qualify.
+Required role: target. Russia is the one being condemned/ruled against by another party — e.g. indicted by a court, formally censured by an international body (example "The ICC issued an arrest warrant for Putin for war crimes").
+
+7.2 Moral Evaluation
+Moral Evaluation refers to explicit ethical, humanitarian, or normative judgment — conveyed through evaluative language — as a basis for portraying Russia as unjust, cruel, or corrupt.
+Text: explicit evaluative/moral vocabulary to characterize a Russian action or its consequences, appealing to a shared ethical or humanitarian standard — not merely reporting the event or its outcome. References to civilian harm, or humanitarian catastrophe; corruption and abuse of public office as moral failing; comparisons to actors or actions with clearly negative moral connotation.
+Images: destruction, civilian casualties, humanitarian suffering, or clearly disproportionate/indiscriminate destruction (e.g. a bombed hospital, school, or residential building; visibly injured or dead civilians; mass displacement) attributable to Russian action. Generic military equipment, routine combat footage, or damage to purely military targets does not qualify on its own — it must carry clear moral weight. Do not activate when the same kind of harm is caused by, or attributed to, another actor.
+Required role: agent. The condemned conduct — the war crime, the civilian harm, the corruption, or the action being compared to something morally negative — must be Russia's own action. Do not activate when the same kind of harm is caused by, or attributed to, another actor.
+
+7.3 Rationalization
+Rationalization refers to presenting Russia as irrational, illogical, ineffective.
+Text: military or strategic failure; ineffective leadership or decision-making; actions lacking a credible justification or achievable objective; official claims or justifications treated as false, implausible, or self-serving.
+Images: failed military operations, abandoned or destroyed equipment; disorder, loss of control.
+Required role: agent. The failure, disorder, or loss of control described must be Russia's own operation, leadership, or claim failing — not simply a setback Russia suffers due to another actor's competent action, unless the evidence specifically foregrounds Russia's own failure (e.g. "abandoned Russian equipment", not merely "Ukrainian forces advanced").
+
+7.4 Mythopoesis
+Mythopoesis refers to narrative or historical parallel with its own development and outcome, historical memory, collective identity, or cautionary narratives that project negative future outcomes caused by Russia.
+Text: warnings of continued war, further destruction, or escalation; framing the future as a "nightmare scenario" contingent on Russia's continued behavior.
+Images: imagery evoking an ominous future (destroyed cities, expanding front lines, growing refugee flows).
+Required role: agent. The anticipated negative future must follow specifically from Russia's own actions or trajectory.
+
+7.5 Emotion
+Emotion refers to emotional appeals, emotionally charged language or imagery that casts Russia or its actions in a negative light.
+Text: the evidence must depict or quote a specific person's emotional state — fear, grief, panic, outrage — expressed by a named or visibly depicted individual reacting to or resulting from Russia's actions. A factual or evaluative description of harm, casualties, or war crimes on its own, without a depicted person's emotional reaction, does not qualify here — that is Moral Evaluation's domain, even if the description itself is vivid or distressing. Do not activate on evidence already used for Moral Evaluation unless it additionally reports a specific person's emotional response, not merely restates the same harm in different words.
+Images: distress, grief, or fear visibly displayed on a specific person's face or body — crying, visible panic, physical collapse — attributed to Russia's actions. Generic destruction or damage imagery without a depicted person's emotional expression belongs under Moral Evaluation instead.
+Required role: agent. The suffering, threat, or grief must be explicitly and specifically caused by Russia — a general association with "the war" or with violence in the article is not specific enough.
+
+7.6 Demonization and Dehumanization
+Demonization and Dehumanization refer to portraying Russia as evil or inhuman.
+Text: explicit comparison or metaphor casting Russia as terrorist state, an animal, monster, demon, or Nazi comparisons; explicit denial of Russian human dignity or humanity.
+Images: symbolic representations of evil; dehumanizing visual metaphors; caricature, animal or monster imagery.
+Required role: target. Russia is legitimately the one being demonized or dehumanized by the article's framing — this is the expected role for this category, not a misattribution. The demonizing content must be directed at Russia.
+
+7.7 Outcasting
+Outcasting refers to categorizing Russia or Russian actors as violators of fundamental social or legal norms, placing them outside the bounds of acceptable international conduct.
+Text: labeling Russia as an aggressor, war criminal, terrorist state, or occupier; references to violations of international law; framing actions as fundamentally outside the norms of legitimate state conduct. Russia being denied entry, membership, or participation; being sanctioned, or diplomatically isolated. 
+Images: military aggression, occupation, or invasion; imagery of tribunals, investigations, or arrests; visual markers conventionally associated with criminality (handcuffs, prison uniform, a mugshot-style presentation).
+Required role: target. Russia must be the one being labeled, condemned, or placed outside accepted international conduct — called an aggressor, war criminal, terrorist state, or occupier, or described as having violated international law — not the one making an accusation against someone else.

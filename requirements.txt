@@ -1,0 +1,13 @@
+aiohttp
+beautifulsoup4
+cloudscraper
+lxml
+matplotlib
+nest_asyncio
+numpy
+openai
+pandas
+pillow
+requests
+tqdm
+urllib3
