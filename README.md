@@ -2,7 +2,9 @@
 
 Code for the second article of the dissertation on the legitimation and delegitimation of Russia in the press of four European countries (Germany, Spain, Poland, Hungary), 2022-2026. Eight outlets, 48,325 articles, each coded by a vision-language model from its full text and all images against a 14-category codebook.
 
-The annotations, codebook and filter flags are published separately as a dataset: [Zenodo record, DOI to be added].
+The annotations, codebook and filter flags are published separately as a dataset: https://doi.org/10.5281/zenodo.23212562.
+
+The tables in the dataset are derived from the output of `05_results/results.ipynb` (the article and activation tables).
 
 ## Pipeline
 
@@ -35,7 +37,7 @@ pip install -r requirements.txt
 
 ## Notes
 
-The notebooks are the working notebooks of the project. The scrapers depend on the page structure of each outlet as it was in 2026, and the sites may have changed since. The pipeline has not been rerun from scratch after the paths were generalised.
+The notebooks are the working notebooks of the project. The scrapers depend on the page structure of each outlet as it was in 2026, and the sites may have changed since. Paths in the notebooks were generalised to bare file names when the repository was prepared.
 
 ## License
 
